@@ -5,4 +5,6 @@ Place this directory at the same level as minimal-lib (until minimal-lib install
 The file image.elf can be renamed vmlinux and placed on an SDCard in a turtle board.  It will simply show main() exiting multiple times.  main() sets up atexit() to call a function with puts("exiting\n"); when main exits.
 
 That's it.  Add your own code to main() and other files to Makefile.
+
+Change the memory layout in Makefile, copying 64k 128k or rom and modifying as necessary.
 J
